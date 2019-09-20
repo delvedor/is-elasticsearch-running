@@ -1,0 +1,34 @@
+{
+  "name": "is-elasticsearch-running",
+  "version": "0.1.0",
+  "description": "Small utility to verify if an Elasticsearch cluster is up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvedor/is-elasticsearch-running.git"
+  },
+  "keywords": [
+    "elastic",
+    "elasticsearch",
+    "test",
+    "check",
+    "running"
+  ],
+  "author": "Tomas Della Vedova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delvedor/is-elasticsearch-running/issues"
+  },
+  "homepage": "https://github.com/delvedor/is-elasticsearch-running#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.3.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "stoppable": "^1.1.0",
+    "tap": "^14.6.4"
+  }
+}
